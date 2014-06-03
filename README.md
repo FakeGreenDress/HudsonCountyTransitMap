@@ -39,6 +39,7 @@ The hack day was largely devoted to processing and simplifying very large sets o
 - [A&C Buses](http://acbuscorp.com/index.html) 
 - Ferry terminals
 - Liberty Landing Ferry
+- Ferries to Ellis Island and the Statue of Liberty
 - NJT Bus Route lines connected to bus numbers (and possibly their destinations outside Hudson County)
 - Meadowlands Rail Line (NJT)
 - Bike lanes (may need to crowdsource info on new lanes in Jersey City)
@@ -46,8 +47,9 @@ The hack day was largely devoted to processing and simplifying very large sets o
 - Schedules and realtime data
 
 ##Future plans:
-- Improve design and data hierarchy to make the information easier to navigate at different scales and levels of detail
+- Improve design, layout and data hierarchy to make the information easier to navigate at different scales and levels of detail
 - Add more (and more detailed) metadata to the layer attribute tables
+- Link GTFS shapes to route information
 - Use this map to generate a layered set of map tiles for interactive web access
 
 #More Screenshots:
