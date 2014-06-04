@@ -47,7 +47,7 @@
           <prop k="customdash_unit" v="MM"/>
           <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
-          <prop k="offset" v="1.2"/>
+          <prop k="offset" v="-1.2"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
@@ -228,7 +228,7 @@
     <edittype labelontop="0" editable="1" type="0" name="name"/>
     <edittype labelontop="0" editable="1" type="0" name="system"/>
   </edittypes>
-  <editform>.</editform>
+  <editform>../../GIS Data</editform>
   <editforminit></editforminit>
   <featformsuppress>0</featformsuppress>
   <annotationform>.</annotationform>

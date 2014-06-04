@@ -21,13 +21,14 @@ The hack day was largely devoted to processing and simplifying very large sets o
 ##Data added so far:
 - PATH lines and stations
 - Hudson-Bergen Light Rail lines and stations
-- NJ Transit Bus lines and bus stops
-- NY Waterway Ferry routes
+- NJ Transit Bus lines and bus stops (both as simple background shape and full route detail)
+- NY Waterway Ferry routes and terminals
 - NJ Transit Rail lines and stations
 - Jitney (Dollar Van) Bus Routes (compiled by another OpenJC hackathon team as part of their awesome project: https://github.com/OpenJC/Jitney)
 - Newark City Subway/Light Rail lines
 - AirTrain EWR (via OpenStreetMap)
-- Base map layer (via OpenStreetMap and NationalAtlas.gov)
+- Two base map layers, one simple and one highly detailed (via OpenStreetMap, NJGIN and NationalAtlas.gov)
+- County and municipal borders
 - Accessibility info for PATH and HBLR stations
 
 *All data sourced from transit operators unless otherwise indicated.*
@@ -37,11 +38,9 @@ The hack day was largely devoted to processing and simplifying very large sets o
 - Hoboken HOP bus
 - Red & Tan buses (Operated by CoachUSA, have yet to find any route data newer than 2010)
 - [A&C Buses](http://acbuscorp.com/index.html) 
-- Ferry terminals
 - Liberty Landing Ferry
 - Ferries to Ellis Island and the Statue of Liberty
-- NJT Bus Route lines connected to bus numbers (and possibly their destinations outside Hudson County)
-- Meadowlands Rail Line (NJT)
+- Simplified/reduced NJT Bus Route lines
 - Bike lanes (may need to crowdsource info on new lanes in Jersey City)
 - Additional connections to NYC Subway
 - Schedules and realtime data
