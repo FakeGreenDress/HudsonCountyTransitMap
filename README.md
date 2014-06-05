@@ -36,11 +36,13 @@ The hack day was largely devoted to processing and simplifying very large sets o
 
 ##Hoping to add:
 - Hoboken HOP bus
-- Red & Tan buses (Operated by CoachUSA, have yet to find any route data newer than 2010)
 - [A&C Buses](http://acbuscorp.com/index.html) 
+- [Decamp Bus Lines](https://maps.google.com/maps/user?uid=215431211415581436371&hl=en&gl=us&ptab=2)
+- [Trans-Bridge Lines to PA](http://www.transbridgelines.com/daily.htm)
 - Liberty Landing Ferry
 - Ferries to Ellis Island and the Statue of Liberty
 - Simplified/reduced NJT Bus Route lines
+- Red & Tan buses (Operated by CoachUSA, have yet to find any route data newer than 2010, may no longer be running in Hudson County). Broadway IBOA is another possible single-route carrier?
 - Bike lanes (may need to crowdsource info on new lanes in Jersey City)
 - Additional connections to NYC Subway
 - Schedules and realtime data
