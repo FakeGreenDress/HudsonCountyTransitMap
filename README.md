@@ -61,10 +61,10 @@ The hack day was largely devoted to processing and simplifying very large sets o
 ![Base Map](/Screenshots/base-map_with-ferries-v2.png?raw=true "Base Map")
 Base Map
 
-![Downtown Jersey City](/Screenshots/harrison.png?raw=true "PATH trains")
+![Downtown Jersey City](/Screenshots/downtown-JC.png?raw=true "PATH trains")
 Downtown Jersey City
 
-![Harrison and Newark](/Screenshots/downtown-JC.png?raw=true "Harrison and Newark")
+![Harrison and Newark](/Screenshots/harrison.png?raw=true "Harrison and Newark")
 Harrison and Newark
 
 ##Older Screenshots:
