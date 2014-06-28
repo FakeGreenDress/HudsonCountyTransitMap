@@ -15,11 +15,19 @@ The goal of this project is to create a central GIS repository covering all publ
 
 ![Everything At Once](/Screenshots/all-layers-enabled-v2.png?raw=true "Everything At Once")
 
-That data, however, can be selectively enabled and filtered to produce much more useful maps, such as this one that reveals a large section of Jersey City that lacks direct access to NYC via bus. After Hurricane Sandy disrupted train service for several weeks, residents of this neighborhood faced particularly serious issues getting to work.
+That data, however, can be selectively enabled and filtered to produce much more useful maps. These can range from basic guides for visitors, such as this simple PATH service map...
+
+![Weekday PATH service](/Screenshots/path-weekdays.png?raw=true "Weekday PATH service")
+
+...to visualizations that could affect policy, such as this one that reveals a large section of Jersey City that lacks direct access to NYC via bus. 
 
 ![No buses to Midtown](/Screenshots/no-buses-to-pabt.png?raw=true "No buses to Midtown :-(")
 
-The hack day was largely devoted to processing and simplifying very large sets of data, including extracting Hudson-only data from NJ Transit's massive statewide bus dataset, which initially contained over three million shapes! (It's now down to just 244 features including all variations on all lines, and can be reduced further.) All resulting shapefiles are standard WGS84 projections. Many include connections and key destinations beyond Hudson County, such as Newark Airport. Individual layer style files are also included.
+After Hurricane Sandy disrupted train service for several weeks, residents of this neighborhood faced particularly serious issues getting to work.
+
+All resulting shapefiles are standard WGS84 projections. Many include connections and key destinations beyond Hudson County, such as Newark Airport. Individual layer style files are also included.
+
+The hack day was largely devoted to processing and simplifying very large sets of data, including extracting Hudson-only data from NJ Transit's massive statewide bus dataset, which initially contained over three million shapes! Much of the data has since been further cleaned, sorted and reformatted.
 
 
 ##Data added so far:
@@ -66,6 +74,9 @@ Downtown Jersey City
 
 ![Harrison and Newark](/Screenshots/harrison.png?raw=true "Harrison and Newark")
 Harrison and Newark
+
+![Hoboken Terminal](/Screenshots/harrison.png?raw=true "Hoboken Terminal")
+Hoboken Terminal
 
 ##Older Screenshots:
 ![Jitney Bus Routes](/Screenshots/jitney-routes.png?raw=true "Jitney Bus Routes")
