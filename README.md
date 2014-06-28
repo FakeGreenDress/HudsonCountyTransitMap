@@ -75,7 +75,7 @@ Downtown Jersey City
 ![Harrison and Newark](/Screenshots/harrison.png?raw=true "Harrison and Newark")
 Harrison and Newark
 
-![Hoboken Terminal](/Screenshots/harrison.png?raw=true "Hoboken Terminal")
+![Hoboken Terminal](/Screenshots/hoboken-trains.png?raw=true "Hoboken Terminal")
 Hoboken Terminal
 
 ##Older Screenshots:
