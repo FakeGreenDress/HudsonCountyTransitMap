@@ -1,6 +1,6 @@
 ﻿#Hudson County Open Transit Map
 
-![Hudson County Open Transit Map](/Screenshots/hudson-transit-map.png?raw=true "Hudson County Open Transit Map")
+![Hudson County Open Transit Map](/Screenshots/V16-hudson-transit-map.png?raw=true "Hudson County Open Transit Map")
 
 An open map of mass transit for Hudson County, NJ. 
 
@@ -13,7 +13,11 @@ Hudson County residents are some of the most frequent users of public transporta
 
 The goal of this project is to create a central GIS repository covering all public transportation services within Hudson County. While usable for transit navigation in its current form, this map is really designed to lay the groundwork for bigger projects. Everything is vector-based, much of the data is tagged with attributes, and the datasets have been organized into layers by mode of conveyance. With all of them enabled at once it can get a little bit overwhelming:
 
-![Everything At Once](/Screenshots/all-layers-enabled.png?raw=true "Everything At Once")
+![Everything At Once](/Screenshots/all-layers-enabled-v2.png?raw=true "Everything At Once")
+
+That data, however, can be selectively enabled and filtered to produce much more useful maps, such as this one that reveals a large section of Jersey City that lacks direct access to NYC via bus. After Hurricane Sandy disrupted train service for several weeks, residents of this neighborhood faced particularly serious issues getting to work.
+
+![No buses to Midtown](/Screenshots/no-buses-to-pabt.png?raw=true "No buses to Midtown :-(")
 
 The hack day was largely devoted to processing and simplifying very large sets of data, including extracting Hudson-only data from NJ Transit's massive statewide bus dataset, which initially contained over three million shapes! (It's now down to just 244 features including all variations on all lines, and can be reduced further.) All resulting shapefiles are standard WGS84 projections. Many include connections and key destinations beyond Hudson County, such as Newark Airport. Individual layer style files are also included.
 
@@ -21,10 +25,11 @@ The hack day was largely devoted to processing and simplifying very large sets o
 ##Data added so far:
 - PATH lines and stations
 - Hudson-Bergen Light Rail lines and stations
-- NJ Transit Bus lines and bus stops (both as simple background shape and full route detail)
-- NY Waterway Ferry routes and terminals
+- NJ Transit Bus lines and bus stops
+- NY Waterway Ferry routes and terminals (Newport removed)
 - NJ Transit Rail lines and stations
 - Jitney (Dollar Van) Bus Routes (compiled by another OpenJC hackathon team as part of their awesome project: https://github.com/OpenJC/Jitney)
+- [Decamp Bus Lines](https://maps.google.com/maps/user?uid=215431211415581436371&hl=en&gl=us&ptab=2)
 - Newark City Subway/Light Rail lines
 - AirTrain EWR (via OpenStreetMap)
 - Two base map layers, one simple and one highly detailed (via OpenStreetMap, NJGIN and NationalAtlas.gov)
@@ -37,13 +42,12 @@ The hack day was largely devoted to processing and simplifying very large sets o
 ##Hoping to add:
 - Hoboken HOP bus
 - [A&C Buses](http://acbuscorp.com/index.html) 
-- [Decamp Bus Lines](https://maps.google.com/maps/user?uid=215431211415581436371&hl=en&gl=us&ptab=2)
 - [Trans-Bridge Lines to PA](http://www.transbridgelines.com/daily.htm)
 - Liberty Landing Ferry
 - Ferries to Ellis Island and the Statue of Liberty
-- Simplified/reduced NJT Bus Route lines
 - Red & Tan buses (Operated by CoachUSA, have yet to find any route data newer than 2010, may no longer be running in Hudson County). Broadway IBOA is another possible single-route carrier?
 - Bike lanes (may need to crowdsource info on new lanes in Jersey City)
+- Higher-resolution jitney routes
 - Additional connections to NYC Subway
 - Schedules and realtime data
 
@@ -54,12 +58,16 @@ The hack day was largely devoted to processing and simplifying very large sets o
 - Use this map to generate a layered set of map tiles for interactive web access
 
 #More Screenshots:
-![Base Map](/Screenshots/base-map_with-ferries.png?raw=true "Base Map")
+![Base Map](/Screenshots/base-map_with-ferries-v2.png?raw=true "Base Map")
 Base Map
 
-![PATH trains](/Screenshots/PATH-lines.png?raw=true "PATH trains")
-PATH Trains
+![Downtown Jersey City](/Screenshots/harrison.png?raw=true "PATH trains")
+Downtown Jersey City
 
+![Harrison and Newark](/Screenshots/downtown-JC.png?raw=true "Harrison and Newark")
+Harrison and Newark
+
+##Older Screenshots:
 ![Jitney Bus Routes](/Screenshots/jitney-routes.png?raw=true "Jitney Bus Routes")
 Jitney Bus Routes
 
