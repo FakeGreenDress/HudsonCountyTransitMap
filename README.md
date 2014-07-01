@@ -49,7 +49,8 @@ The hack day was largely devoted to processing and simplifying very large sets o
 
 ##Hoping to add:
 - Hoboken HOP bus
-- [A&C Buses](http://acbuscorp.com/index.html) 
+- [A&C Buses](http://acbuscorp.com/index.html)
+- [State Transtours'](http://statetranstours.com/)[Society Hill Shuttle](http://society-hill.com/transportation.html) 
 - [Trans-Bridge Lines to PA](http://www.transbridgelines.com/daily.htm)
 - Liberty Landing Ferry
 - Ferries to Ellis Island and the Statue of Liberty
