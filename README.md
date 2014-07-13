@@ -1,6 +1,6 @@
 ﻿#Hudson County Open Transit Map
 
-![Hudson County Open Transit Map](/Screenshots/V16-hudson-transit-map.png?raw=true "Hudson County Open Transit Map")
+![Hudson County Open Transit Map](/Screenshots/new-new-header-image.png?raw=true "Hudson County Open Transit Map")
 
 An open map of mass transit for Hudson County, NJ. 
 
