@@ -31,29 +31,35 @@ The hack day was largely devoted to processing and simplifying very large sets o
 
 
 ##Data added so far:
-- PATH lines and stations
+####Rail
+- PATH lines and stations, including weekend service
 - Hudson-Bergen Light Rail lines and stations
-- NJ Transit Bus lines and bus stops
-- NY Waterway Ferry routes and terminals (Newport removed)
 - NJ Transit Rail lines and stations
-- Jitney (Dollar Van) Bus Routes (compiled by another OpenJC hackathon team as part of their awesome project: https://github.com/OpenJC/Jitney)
-- [Decamp Bus Lines](https://maps.google.com/maps/user?uid=215431211415581436371&hl=en&gl=us&ptab=2)
 - Newark City Subway/Light Rail lines
 - AirTrain EWR (via OpenStreetMap)
-- Two base map layers, one simple and one highly detailed (via OpenStreetMap, NJGIN and NationalAtlas.gov)
-- County and municipal borders
 - Accessibility info for PATH and HBLR stations
 
-*All data sourced from transit operators unless otherwise indicated.*
+####Buses
+- NJ Transit Bus lines and bus stops
+- [A&C Buses](http://acbuscorp.com/index.html)
+- [Decamp Bus Lines](https://maps.google.com/maps/user?uid=215431211415581436371&hl=en&gl=us&ptab=2)
+- Jitney (Dollar Van) Bus Routes (compiled by another OpenJC hackathon team as part of their awesome project: https://github.com/OpenJC/Jitney)
+
+####Ferries
+- NY Waterway Ferry routes and terminals (Newport removed)
+- Liberty Landing Ferry
+- Statue Cruises (Ferries to Ellis Island and the Statue of Liberty)
+
+####Base Map Layers
+- Two base map layers, one simple and one highly detailed (via OpenStreetMap, NJGIN and NationalAtlas.gov). Detailed map includes municipal borders, streets, parks, water features, pedestrian footpaths, major buildings, harbor islands and surrounding counties.
+
+*All data sourced from transit operators and OpenStreetMap unless otherwise indicated.*
 
 
 ##Hoping to add:
 - Hoboken HOP bus
-- [A&C Buses](http://acbuscorp.com/index.html)
-- [State Transtours'](http://statetranstours.com/)[Society Hill Shuttle](http://society-hill.com/transportation.html) 
+- [State Transtours'](http://statetranstours.com/) [Society Hill Shuttle](http://society-hill.com/transportation.html) 
 - [Trans-Bridge Lines to PA](http://www.transbridgelines.com/daily.htm)
-- Liberty Landing Ferry
-- Ferries to Ellis Island and the Statue of Liberty
 - Red & Tan buses (Operated by CoachUSA, have yet to find any route data newer than 2010, may no longer be running in Hudson County). Broadway IBOA is another possible single-route carrier?
 - Bike lanes (may need to crowdsource info on new lanes in Jersey City)
 - Higher-resolution jitney routes
