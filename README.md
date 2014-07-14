@@ -58,6 +58,7 @@ The hack day was largely devoted to processing and simplifying very large sets o
 
 ##Hoping to add:
 - Hoboken HOP bus
+- NY Waterway buses
 - [State Transtours'](http://statetranstours.com/) [Society Hill Shuttle](http://society-hill.com/transportation.html) 
 - [Trans-Bridge Lines to PA](http://www.transbridgelines.com/daily.htm)
 - Red & Tan buses (Operated by CoachUSA, have yet to find any route data newer than 2010, may no longer be running in Hudson County). Broadway IBOA is another possible single-route carrier?
